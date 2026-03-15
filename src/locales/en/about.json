@@ -1,0 +1,30 @@
+{
+  "sectionTitle": "About me",
+  "sectionSubtitle": "Passionate Full-Stack Engineer, I design robust and modern digital products with over 2 years of cumulative experience.",
+  "bio": "State Engineer in Software Engineering, I design and develop robust, scalable web applications. With solid full-stack experience, I work across the entire chain — from back-end architecture to modern user interfaces. Always keeping up with new technology trends, I continuously explore new tools to deliver quality solutions. Based in Casablanca, I am open to any opportunity: permanent contract, freelance, or remote.",
+  "bioHighlights": ["full-stack", "Laravel", "React.js", "TypeScript", "SaaS"],
+  "infoSectionTitle": "Information",
+  "infos": [
+    { "label": "Location", "value": "Casablanca, Morocco"            },
+    { "label": "Email",    "value": "ou.omar88@gmail.com"            },
+    { "label": "Phone",    "value": "+212 659-881839"                },
+    { "label": "Status",   "value": "Available · Full-time / Freelance" },
+    { "label": "Remote",   "value": "Open to remote work"            }
+  ],
+  "languagesSectionTitle": "Languages",
+  "languages": [
+    { "name": "Tamazight", "level": "Native language",    "percent": 100 },
+    { "name": "Arabic",    "level": "Fluent",             "percent": 95  },
+    { "name": "French",    "level": "Intermediate",       "percent": 75  },
+    { "name": "English",   "level": "Intermediate",       "percent": 70  }
+  ],
+  "learningTitle": "Currently learning",
+  "learning": ["Spring Boot", "Advanced Docker", "CI/CD"],
+  "ctaCV": "Download my CV",
+  "openToWork": "Open to work",
+  "stats": [
+    { "value": 2,  "suffix": "+", "label": "Years of experience" },
+    { "value": 5, "suffix": "+", "label": "Projects delivered"   },
+    { "value": 4,  "suffix": "",  "label": "Certifications"       }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "sectionTitle": "Education",
+  "sectionSubtitle": "My academic background, the foundation of my technical skills.",
+  "chipLabel": "Academic path",
+  "education": [
+    {
+      "id": 1,
+      "degree": "State Engineer — Software Engineering",
+      "school": "Faculty of Sciences and Techniques",
+      "location": "Errachidia, Morocco",
+      "period": "2021 – 2024",
+      "highlight": true,
+      "tags": ["Software Engineering", "Software Architecture", "Databases", "Networks"]
+    },
+    {
+      "id": 2,
+      "degree": "DEUG — Mathematical and Computer Sciences",
+      "school": "Faculty of Sciences",
+      "location": "Ouarzazate, Morocco",
+      "period": "2019 – 2021",
+      "highlight": false,
+      "tags": ["Mathematics", "Algorithms", "Programming"]
+    },
+    {
+      "id": 3,
+      "degree": "Baccalaureate — Mathematical Sciences A",
+      "school": "High School",
+      "location": "Morocco",
+      "period": "2018 – 2019",
+      "highlight": false,
+      "tags": ["Mathematics", "Physics"]
+    }
+  ]
+}

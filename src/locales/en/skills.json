@@ -1,0 +1,102 @@
+{
+  "sectionTitle": "Skills",
+  "sectionSubtitle": "An overview of the technologies I use daily to build modern and robust web applications.",
+  "expertiseTitle": "Expertise Level",
+  "expertiseSubtitle": "Assessment by core technology",
+  "techCountSingular": "technology",
+  "techCountPlural": "technologies",
+  "categories": [
+    {
+      "name": "Frontend",
+      "technologies": [
+        "React.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Bootstrap",
+        "jQuery",
+        "Vite",
+        "HTML5",
+        "CSS3"
+      ]
+    },
+    {
+      "name": "Backend",
+      "technologies": [
+        "PHP/Laravel",
+        "Java/Spring Boot",
+        "Node.js"
+      ]
+    },
+    {
+      "name": "Databases",
+      "technologies": [
+        "MySQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "technologies": [
+        "Docker",
+        "Git",
+        "GitHub",
+        "GitLab CI/CD",
+        "OVHcloud"
+      ]
+    },
+    {
+      "name": "Testing & Methods",
+      "technologies": [
+        "Postman",
+        "PHPUnit",
+        "Agile / Scrum",
+        "UML"
+      ]
+    },
+    {
+      "name": "Tools & APIs",
+      "technologies": [
+        "REST API",
+        "Stripe",
+        "Ellisphère API",
+        "ImageMagick",
+        "Select2",
+        "AJAX"
+      ]
+    }
+  ],
+  "expertise": [
+    {
+      "name": "Laravel",
+      "level": 90
+    },
+    {
+      "name": "PHP",
+      "level": 85
+    },
+    {
+      "name": "React.js",
+      "level": 80
+    },
+    {
+      "name": "MySQL",
+      "level": 80
+    },
+    {
+      "name": "TypeScript",
+      "level": 65
+    },
+    {
+      "name": "Node.js",
+      "level": 50
+    },
+    {
+      "name": "Docker",
+      "level": 55
+    },
+    {
+      "name": "Spring Boot",
+      "level": 50
+    }
+  ]
+}

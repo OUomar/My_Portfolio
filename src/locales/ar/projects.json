@@ -1,0 +1,51 @@
+{
+  "sectionTitle": "المشاريع الشخصية",
+  "sectionSubtitle": "بعض المشاريع التي طورتها لاستكشاف تقنيات جديدة وحل مشكلات حقيقية.",
+  "githubCta": "عرض جميع مشاريعي على GitHub",
+  "projects": [
+    {
+      "id": 1,
+      "title": "لوحة تحليلات – سلة المشتريات",
+      "description": "لوحة قيادة تفاعلية لتحليل سلوك الشراء في الوقت الفعلي: تصور الاتجاهات، تتبع السلات، إحصاءات المستهلكين ورسوم بيانية ديناميكية. باكيند Node.js/Express مع قاعدة بيانات MongoDB وتايبينغ TypeScript.",
+      "stack": [
+        "Vue.js",
+        "Node.js",
+        "Express",
+        "TypeScript",
+        "MongoDB"
+      ],
+      "github": "https://github.com/OUomar/Outil-simplifi-d-analyse-des-paniers-d-achat",
+      "demo": "#"
+    },
+    {
+      "id": 2,
+      "title": "تطبيق GI-FSTE – إدارة سلك المهندسين",
+      "description": "منصة ويب للإدارة البيداغوجية والإدارية لسلك مهندس الهندسة المعلوماتية: الطلاب، الأساتذة، المقررات، النقط، الغيابات والجداول الزمنية. ثلاثة فضاءات مستقلة: الطالب، الأستاذ والمشرف.",
+      "stack": [
+        "PHP",
+        "Laravel",
+        "JavaScript",
+        "jQuery",
+        "MySQL"
+      ],
+      "github": "https://github.com/OUomar/Application-web-pour-la-gestion-de-la-formation-du-cycle-d-ing-nieur",
+      "demo": "#"
+    },
+     {
+      "id": 3,
+      "title": "تطبيق ويب لإدارة مدرسة تعليم السياقة",
+      "description": "نظام متكامل لإدارة مدرسة تعليم السياقة: المترشحون، المدربون، السيارات، جدولة الحصص، الدفع الإلكتروني ومتابعة الامتحانات. ثلاثة أدوار مستقلة: المشرف، المدرب والمترشح.",
+      "stack": [
+        "PHP",
+        "Laravel",
+        "JavaScript",
+        "jQuery",
+        "MySQL",
+        "HTML5",
+        "CSS3"
+      ],
+      "github": "https://github.com/OUomar/Application-web-pour-la-gestion-d-une-auto--cole.",
+      "demo": "#"
+    }
+  ] 
+}

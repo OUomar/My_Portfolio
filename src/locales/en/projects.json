@@ -1,0 +1,51 @@
+{
+  "sectionTitle": "Personal Projects",
+  "sectionSubtitle": "A few projects built to explore new technologies and solve real-world problems.",
+  "githubCta": "View all my projects on GitHub",
+  "projects": [
+    {
+      "id": 1,
+      "title": "Analytics Dashboard – Shopping Cart",
+      "description": "Interactive real-time analytics dashboard for shopping behavior: trend visualization, cart tracking, consumer statistics and dynamic charts. Node.js/Express backend with MongoDB database and TypeScript typing.",
+      "stack": [
+        "Vue.js",
+        "Node.js",
+        "Express",
+        "TypeScript",
+        "MongoDB"
+      ],
+      "github": "https://github.com/OUomar/Outil-simplifi-d-analyse-des-paniers-d-achat",
+      "demo": "#"
+    },
+    {
+      "id": 2,
+      "title": "GI-FSTE App – Engineering Cycle Management",
+      "description": "Web platform for academic and administrative management of the Computer Engineering program: students, teachers, courses, grades, absences and schedules. Three distinct spaces: Student, Teacher and Administrator.",
+      "stack": [
+        "PHP",
+        "Laravel",
+        "JavaScript",
+        "jQuery",
+        "MySQL"
+      ],
+      "github": "https://github.com/OUomar/Application-web-pour-la-gestion-de-la-formation-du-cycle-d-ing-nieur",
+      "demo": "#"
+    },
+    {
+      "id": 3,
+      "title": "Driving School Web App",
+      "description": "Full driving school management system: candidates, instructors, vehicles, session scheduling, online payments and exam tracking. Three distinct roles: Administrator, Instructor and Candidate.",
+      "stack": [
+        "PHP",
+        "Laravel",
+        "JavaScript",
+        "jQuery",
+        "MySQL",
+        "HTML5",
+        "CSS3"
+      ],
+      "github": "https://github.com/OUomar/Application-web-pour-la-gestion-d-une-auto--cole.",
+      "demo": "#"
+    }
+  ]
+}

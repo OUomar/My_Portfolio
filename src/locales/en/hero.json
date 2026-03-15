@@ -1,0 +1,23 @@
+{
+  "greeting": "Hello, I am",
+  "firstname":"Omar",
+  "lastname":"OUKHOUYA",
+  "roles": [
+    "Full-Stack Engineer",
+    "Web & Mobile Developer",
+    "Solutions Architect",
+    "Tech Enthusiast"
+  ],
+  "description": "Software Engineering graduate, I design robust and scalable web applications from back-end to user interface. Curious and always learning, I continuously explore new technologies to deliver high-value solutions.",
+  "descriptionHighlight1": "robust and scalable web applications",
+  "descriptionHighlight2": "new technologies",
+  "ctaProjects": "View my projects",
+  "ctaCV": "Download CV",
+  "followLabel": "Follow me",
+  "scrollLabel": "Scroll",
+  "availableLabel": "Available",
+  "experienceLabel": "Yrs exp.",
+  "statsYears": "Years exp.",
+  "statsProjects": "Projects delivered",
+  "statsCerts": "Certifications"
+}

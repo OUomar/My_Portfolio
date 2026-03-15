@@ -1,0 +1,23 @@
+{
+  "firstname":"Omar",
+  "lastname":"OUKHOUYA",
+  "title":"Software Engineering",
+  "tagline": "Passionate Full Stack Developer based in Casablanca — I build modern web applications, from robust backends to polished interfaces.",
+  "availability": "Available · Full-time / Freelance",
+  "navTitle": "Navigation",
+  "navLinks": [
+    { "label": "Home",       "href": "#accueil"    },
+    { "label": "About",      "href": "#apropos"     },
+    { "label": "Skills",     "href": "#competences" },
+    { "label": "Experience", "href": "#experiences" },
+    { "label": "Projects",   "href": "#projets"     },
+    { "label": "Contact",    "href": "#contact"     }
+  ],
+  "contactTitle": "Contact",
+  "stackTitle": "Main stack",
+  "stack": ["Laravel", "React.js", "TypeScript", "MySQL", "Docker"],
+  "copyright": "All rights reserved.",
+  "madeWith": "Made with",
+  "madeIn": "in",
+  "backToTop": "Back to top"
+}

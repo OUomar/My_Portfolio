@@ -1,0 +1,23 @@
+{
+  "firstname":"Omar",
+  "lastname":"OUKHOUYA",
+  "title":"Ingénieur Logiciel",
+  "tagline": "Développeur Full Stack passionné basé à Casablanca — je conçois des applications web modernes, du backend robuste à l'interface soignée.",
+  "availability": "Disponible · CDI / Freelance",
+  "navTitle": "Navigation",
+  "navLinks": [
+    { "label": "Accueil",     "href": "#accueil"    },
+    { "label": "À propos",    "href": "#apropos"     },
+    { "label": "Compétences", "href": "#competences" },
+    { "label": "Expériences", "href": "#experiences" },
+    { "label": "Projets",     "href": "#projets"     },
+    { "label": "Contact",     "href": "#contact"     }
+  ],
+  "contactTitle": "Contact",
+  "stackTitle": "Stack principale",
+  "stack": ["Laravel", "React.js", "TypeScript", "MySQL", "Docker"],
+  "copyright": "Tous droits réservés.",
+  "madeWith": "Fait avec",
+  "madeIn": "en",
+  "backToTop": "Retour en haut"
+}

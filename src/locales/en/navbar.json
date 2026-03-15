@@ -1,0 +1,17 @@
+{
+  "navFirstName":"Omar",
+  "navLastName":"OUKHOUYA",
+  "navSubtitle": "Software Engineering",
+  "navCta": "Contact me",
+  "navDarkTitle": "Light mode",
+  "navLightTitle": "Dark mode",
+  "navCallTitle": "Call",
+  "navLinks": [
+    { "label": "Home",       "href": "#accueil"     },
+    { "label": "About",      "href": "#apropos"     },
+    { "label": "Skills",     "href": "#competences" },
+    { "label": "Experience", "href": "#experiences" },
+    { "label": "Projects",   "href": "#projets"     },
+    { "label": "Contact",    "href": "#contact"     }
+  ]
+}

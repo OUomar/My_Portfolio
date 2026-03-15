@@ -1,0 +1,23 @@
+{
+  "firstname":"عمر",
+  "lastname":"أوخويا",
+  "title":"مهندس برمجيات",
+  "tagline": "مطور Full Stack شغوف مقيم في الدار البيضاء — أبني تطبيقات ويب حديثة، من الباكيند المتين إلى الواجهات المصقولة.",
+  "availability": "متاح · عقد دائم / عمل حر",
+  "navTitle": "التنقل",
+  "navLinks": [
+    { "label": "الرئيسية",   "href": "#accueil"    },
+    { "label": "عنّي",       "href": "#apropos"     },
+    { "label": "المهارات",   "href": "#competences" },
+    { "label": "التجارب",    "href": "#experiences" },
+    { "label": "المشاريع",   "href": "#projets"     },
+    { "label": "التواصل",    "href": "#contact"     }
+  ],
+  "contactTitle": "التواصل",
+  "stackTitle": "التقنيات الرئيسية",
+  "stack": ["Laravel", "React.js", "TypeScript", "MySQL", "Docker"],
+  "copyright": "جميع الحقوق محفوظة.",
+  "madeWith": "صُنع بـ",
+  "madeIn": "بـ",
+  "backToTop": "العودة للأعلى"
+}

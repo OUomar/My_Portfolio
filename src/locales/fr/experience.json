@@ -1,0 +1,271 @@
+{
+  "sectionTitle": "Expériences Professionnelles",
+  "sectionSubtitle": "Mon parcours professionnel — des missions formatives aux projets SaaS en production.",
+  "chipLabel": "Parcours",
+  "currentBadge": "En poste",
+  "detailsBtn": "Voir plus",
+  "closeBtn": "Réduire",
+  "stackLabel": "Stack technique",
+  "modalClose": "Fermer",
+  "modalSections": {
+    "context": "Contexte du projet",
+    "missions": "Mes missions",
+    "technical": "Détails techniques",
+    "architecture": "Architecture",
+    "deployment": "Déploiement",
+    "stack": "Stack utilisée"
+  },
+  "experiences": [
+    {
+      "id": 1,
+      "current": true,
+      "period": "Sept. 2025 – Mars. 2026",
+      "role": "Ingénieur Full Stack",
+      "company": "Luxpure",
+      "location": "Technopark, Casablanca",
+      "summary": "Conception, développement et déploiement (A→Z) d'une plateforme SaaS B2B2C de gestion hôtelière (PMS) — LuxTech.",
+      "stack": [
+        "Laravel 12",
+        "React.js",
+        "Vite",
+        "Sanctum",
+        "Reverb",
+        "MySQL",
+        "Stripe",
+        "OVHcloud"
+      ],
+      "modal": {
+        "context": "Luxpure m'a confié la réalisation complète de LuxTech, une solution SaaS PMS (Property Management System) destinée à l'écosystème hôtelier marocain. J'ai pris en charge l'ensemble du cycle : de la conception de l'architecture jusqu'au déploiement en production sur OVHcloud, en passant par le développement de toutes les fonctionnalités.",
+        "missions": [
+          "Conception de l'architecture technique complète (Back-end API REST + Front-end SPA)",
+          "Développement du module PMS Hôtel : gestion des chambres, types, équipements, calendrier interactif de réservations",
+          "Développement de l'Espace Agence : moteur de recherche d'hôtels, tunnel de réservation multi-étapes (Wizard)",
+          "Développement du Booking Engine public : réservation directe pour les clients finaux",
+          "Intégration des paiements Stripe (Checkout, Webhooks, gestion des échecs)",
+          "Mise en place des notifications temps réel via WebSockets (Laravel Reverb)",
+          "Génération automatique de factures PDF et envoi d'emails (Mailtrap → SMTP)",
+          "Mise en place des Queue Workers (emails, PDF, Stripe) et du Scheduler (statuts automatiques)",
+          "Déploiement en production sur un VPS OVHcloud (Ubuntu), configuration SSH et MySQL"
+        ],
+        "architecture": [
+          "Back-end : API REST Laravel 12 — architecture orientée Services pour isoler la logique métier (calculs de prix, taxes, facturation)",
+          "Front-end : SPA React + Vite — structure modulaire par domaine (Agence, Hôtel, Public/Vitrine)",
+          "Temps réel : WebSockets via Laravel Reverb pour les notifications et le calendrier PMS",
+          "Sécurité : Laravel Sanctum (tokens API), middleware de rôles (Admin, Hôtel, Agence)",
+          "3 univers distincts : Dashboard Hôtel (PMS), Espace Agence B2B, Booking Engine public"
+        ],
+        "deployment": "Déploiement sur VPS OVHcloud (Ubuntu 22.04) via SSH. Configuration du serveur MySQL en production, gestion des variables d'environnement sensibles (Stripe, Google Maps, ReCaptcha, Reverb). Hébergement sur luxtech.ma.",
+        "stack_detail": {
+          "backend": [
+            "Laravel 12",
+            "Laravel Sanctum",
+            "Laravel Reverb (WebSockets)",
+            "Laravel Queue",
+            "Stripe API",
+            "Mailtrap/SMTP",
+            "DomPDF (Factures PDF)",
+            "Google ReCaptcha",
+            "Google Maps API"
+          ],
+          "frontend": [
+            "React.js",
+            "Vite",
+            "Axios",
+            "Tailwind CSS",
+            "Context API"
+          ],
+          "database": [
+            "MySQL",
+            "phpMyAdmin"
+          ],
+          "devops": [
+            "OVHcloud VPS",
+            "Ubuntu 22.04",
+            "SSH",
+            "Git"
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "current": false,
+      "period": "Janv. 2025 – Mai 2025",
+      "role": "Développeur Full-Stack Freelance",
+      "company": "NEO Solutions",
+      "location": "Remote – France",
+      "summary": "Conception et développement complet d'une plateforme B2B d'intelligence économique : site vitrine, espace client sécurisé et back-office admin avec intégration API Ellisphère pour l'analyse financière des entreprises françaises.",
+      "stack": [
+        "Laravel",
+        "React.js",
+        "TypeScript",
+        "MySQL",
+        "Tailwind CSS",
+        "API REST",
+        "Ellisphère API"
+      ],
+      "modal": {
+        "context": "Mission freelance pour NEO Solutions (Kenitra, Maroc — client basé en France) : cabinet d'Intelligence Économique spécialisé dans le renseignement d'affaires, la due diligence, la compliance et la cybersécurité. Le projet comprenait deux volets : un site vitrine institutionnel et une plateforme métier complète permettant à leurs clients professionnels d'effectuer des recherches et analyses financières sur des entreprises françaises via l'API Ellisphère, avec un workflow de demande d'enquêtes approfondies géré côté admin.",
+        "missions": [
+          "Développement du site vitrine institutionnel de NEO Solutions (pages Accueil, À Propos, Services, Contact, Espace Client)",
+          "développement de la plateforme client sécurisée : authentification, tableau de bord, moteur de recherche d'entreprises",
+          "Intégration de l'API Ellisphère pour la récupération de données financières (SIREN, bilans, dirigeants, scores de solvabilité)",
+          "Développement du module « Radar / Recherche » : recherche par SIREN, dénomination, dirigeant, département ou secteur d'activité avec score de confiance (0–10 → 0 à 5 étoiles)",
+          "Développement du module « Service Enquêtes » : formulaire de demande d'enquête (3 types + spécifique), suivi de l'état des demandes",
+          "Développement du back-office admin : gestion des demandes d'enquêtes entrantes avec génération de document Word pré-rempli depuis les données Ellisphère, notifications et workflow de livraison au client",
+          "Sécurisation des accès et des données financières sensibles (authentification, rôles client/admin)"
+        ],
+        "architecture": [
+          "Architecture monolithique Laravel : back-end + front-end intégrés, sans API exposée côté client (accès direct DB)",
+          "Front-end : SPA React + TypeScript pour le dashboard client et le back-office admin",
+          "Intégration API Ellisphère : 3 produits XML personnalisés — PRELYSE (données principales), bilans (3 derniers exercices), modifications BODACC (procédures collectives)",
+          "Workflow enquêtes : demande client → notification admin → génération Word pré-rempli avec données Ellisphère → complétion par l'admin → livraison au client",
+          "Base de données MySQL : modélisation adaptée aux données financières, entreprises consultées, portefeuilles clients, historique des audits"
+        ],
+        "stack_detail": {
+          "backend": [
+            "Laravel",
+            "API REST",
+            "Ellisphère API (XML)",
+            "Auth & Rôles"
+          ],
+          "frontend": [
+            "React.js",
+            "TypeScript",
+            "Tailwind CSS"
+          ],
+          "database": [
+            "MySQL"
+          ],
+          "devops": [
+            "Git",
+            "Remote / France"
+          ]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "current": false,
+      "period": "Fév. 2024 – Juil. 2024",
+      "role": "Développeur Full Stack — Stage PFE",
+      "company": "M2S – Mondial Solution Services",
+      "location": "Casablanca",
+      "summary": "Stage de fin d'études : refonte complète d'une application desktop de gestion de sinistres automobiles vers une application web Laravel, avec automatisation des emails, notifications et calculs de coûts.",
+      "stack": [
+        "PHP 8.1",
+        "Laravel 9",
+        "JavaScript",
+        "jQuery",
+        "Tailwind CSS",
+        "SQL Server",
+        "Laragon"
+      ],
+      "modal": {
+        "context": "Stage de Projet de Fin d'Études (PFE) réalisé chez M2S – Mondial Solution Services, société spécialisée dans le développement et le conseil informatique, basée à Casablanca. L'application existante, développée en .NET Desktop, présentait des contraintes majeures : accessibilité limitée à un seul poste, interface peu ergonomique et absence d'automatisation. La mission consistait à concevoir et développer from scratch une nouvelle application web moderne avec le framework Laravel, répondant aux besoins spécifiques du secteur de l'assurance automobile.",
+        "missions": [
+          "Analyse de l'existant (application .NET Desktop) et spécification des besoins fonctionnels et non fonctionnels",
+          "Développement de la page d'authentification sécurisée avec gestion des rôles (experts d'assurance)",
+          "Développement du tableau de bord par compagnie d'assurance : statistiques visuelles (graphiques circulaires et en barres), indicateurs clés (dossiers créés, en retard, refusés, validés), liste des retours AGT et des chiffreurs",
+          "Développement du workflow complet de création de dossier sinistre : formulaire multi-étapes (création → documents → planification → décision)",
+          "Gestion documentaire : upload multiple de PDFs et images, conversion PDF en images (ImageMagick), visualisation plein écran avec zoom et rotation",
+          "Module de planification AGT : calendrier interactif, sélection automatique des agents par zone géographique",
+          "Module de chiffrage : gestion des fournisseurs (fournitures), main d'œuvre par type de choc, calculs automatiques HT/TVA/TTC",
+          "Pop-up de décision : changement d'état du dossier, motifs prédéfinis, 2ème état, observations libres",
+          "Timeline d'historique d'état : affichage chronologique de l'évolution complète de chaque dossier",
+          "Automatisation des emails : détection périodique des emails à envoyer, affichage en pop-up avec pièces jointes, envoi/rejet par l'expert.",
+          "Automatisation des relances : détection des dossiers en retard et génération automatique de relances"
+        ],
+        "architecture": [
+          "Architecture MVC Laravel 9 : séparation stricte Modèle–Vue–Contrôleur pour isoler logique métier, présentation et accès aux données",
+          "Base de données SQL Server (SSMS) avec modélisation adaptée aux sinistres : Dossier, Contrat, Relance, Planification, Chiffrage, Fournisseur, Main d'œuvre, Points de choc, États de dossier",
+          "Front-end : HTML/CSS/JavaScript + jQuery (Select2, AJAX, validations dynamiques, animations) + Tailwind CSS",
+          "Extensions PHP utilisées : hash (sécurité), Imagick (conversion PDF→images), pdo_sqlsrv / sqlsrv (connexion SQL Server)",
+          "Méthodologie Agile Scrum : sprints de 2–3 semaines, revues régulières, réunions tous les 3 jours",
+          "Suivi de projet : diagramme de Gantt (GanttProject), modélisation UML (Lucidchart)"
+        ],
+        "stack_detail": {
+          "backend": [
+            "PHP 8.1",
+            "Laravel 9",
+            "MVC",
+            "Imagick",
+            "pdo_sqlsrv"
+          ],
+          "frontend": [
+            "JavaScript",
+            "jQuery",
+            "AJAX",
+            "Tailwind CSS",
+            "HTML/CSS"
+          ],
+          "database": [
+            "SQL Server",
+            "SSMS"
+          ],
+          "devops": [
+            "Git",
+            "Laragon",
+            "Scrum / Agile"
+          ]
+        }
+      }
+    },
+    {
+      "id": 4,
+      "current": false,
+      "period": "Juil. 2023 – Sept. 2023",
+      "role": "Développeur Full Stack — Stage",
+      "company": "FST Errachidia",
+      "location": "Errachidia",
+      "summary": "Développement from scratch d'une application web de gestion pédagogique du cycle Master : étudiants, enseignants, cours, notes, absences et emplois du temps.",
+      "stack": [
+        "PHP",
+        "Laravel",
+        "jQuery",
+        "MySQL",
+        "HTML5",
+        "CSS3"
+      ],
+      "modal": {
+        "context": "Stage réalisé à la Faculté des Sciences et Techniques d'Errachidia (FST) : conception et développement from scratch d'une application web de gestion pédagogique dédiée au cycle Master. L'objectif était de digitaliser et centraliser les processus administratifs du département Master — en remplaçant les procédures manuelles par une solution web moderne, accessible aux étudiants, enseignants et responsables administratifs.",
+        "missions": [
+          "Analyse des besoins fonctionnels et non fonctionnels auprès du département Master de la FST",
+          "Modélisation UML : diagramme de cas d'utilisation (acteurs : Étudiant, Admin/Gestionnaire) et diagramme de classes",
+          "Conception et modélisation de la base de données MySQL (étudiants, enseignants, modules, notes, absences, cours)",
+          "Développement du module Authentification : inscription, connexion sécurisée, espace étudiant et espace administrateur",
+          "Développement du module Gestion des étudiants : consultation et modification des informations personnelles et académiques",
+          "Développement du module Gestion des cours et avis : mise à disposition des supports de cours, publication d'avis aux étudiants",
+          "Développement du module Gestion des notes et évaluations : saisie des résultats par module, consultation par les étudiants",
+          "Développement du module Gestion des absences : suivi des présences/absences par étudiant et par module",
+          "Développement du module Emplois du temps : planification et affichage des plannings par filière Master"
+        ],
+        "architecture": [
+          "Architecture MVC Laravel : séparation Controllers / Models / Views pour isoler logique métier, accès données et présentation",
+          "Base de données MySQL : modélisation relationnelle (Étudiant, Enseignant, Module, Note, Absence, Cours, EmploiDuTemps)",
+          "Front-end : HTML5 / CSS3 + jQuery pour les interactions dynamiques (validation formulaires, chargements AJAX, affichages conditionnels)",
+          "Deux espaces distincts : Espace Étudiant (consultation notes, cours, absences, avis) et Espace Admin (gestion complète des données pédagogiques)"
+        ],
+        "stack_detail": {
+          "backend": [
+            "PHP",
+            "Laravel",
+            "MVC"
+          ],
+          "frontend": [
+            "jQuery",
+            "AJAX",
+            "HTML5",
+            "CSS3"
+          ],
+          "database": [
+            "MySQL"
+          ],
+          "devops": [
+            "Git"
+          ]
+        }
+      }
+    }
+  ]
+}

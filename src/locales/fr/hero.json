@@ -1,0 +1,23 @@
+{
+  "greeting": "Bonjour, je suis",
+  "firstname":"Omar",
+  "lastname":"OUKHOUYA",
+  "roles": [
+    "Ingénieur Full-Stack",
+    "Développeur Web & Mobile",
+    "Architecte de Solutions",
+    "Passionné d'Innovation"
+  ],
+  "description": "Ingénieur d'État en Génie Logiciel, je conçois des applications web robustes et évolutives du back-end à l'interface utilisateur. Curieux et en veille permanente, j'explore continuellement de nouvelles technologies pour livrer des solutions à forte valeur ajoutée.",
+  "descriptionHighlight1": "applications web robustes et évolutives",
+  "descriptionHighlight2": "nouvelles technologies",
+  "ctaProjects": "Voir mes projets",
+  "ctaCV": "Télécharger CV",
+  "followLabel": "Follow me",
+  "scrollLabel": "Scroll",
+  "availableLabel": "Disponible",
+  "experienceLabel": "Ans exp.",
+  "statsYears": "Ans exp.",
+  "statsProjects": "Projets livrés",
+  "statsCerts": "Certifications"
+}

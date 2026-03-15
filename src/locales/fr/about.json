@@ -1,0 +1,30 @@
+{
+  "sectionTitle": "À propos de moi",
+  "sectionSubtitle": "Ingénieur Full-Stack passionné, je conçois des produits digitaux robustes et modernes avec plus de 2 ans d'expérience cumulée.",
+  "bio": "Ingénieur d'État en Génie Logiciel, je conçois et développe des applications web robustes et évolutives. Avec une solide expérience en développement full-stack, j'interviens sur l'ensemble de la chaîne — de l'architecture back-end aux interfaces utilisateur modernes. Toujours en veille technologique, j'explore continuellement de nouveaux outils pour livrer des solutions de qualité. Basé à Casablanca, je suis ouvert à toute opportunité en CDI, freelance ou remote.",
+  "bioHighlights": ["full-stack", "Laravel", "React.js", "TypeScript", "SaaS"],
+  "infoSectionTitle": "Informations",
+  "infos": [
+    { "label": "Lieu",    "value": "Casablanca, Maroc"              },
+    { "label": "Email",   "value": "ou.omar88@gmail.com"            },
+    { "label": "Tél",     "value": "+212 659-881839"                },
+    { "label": "Statut",  "value": "Disponible · CDI / Freelance"   },
+    { "label": "Remote",  "value": "Ouvert au télétravail"          }
+  ],
+  "languagesSectionTitle": "Langues",
+  "languages": [
+    { "name": "Tamazight", "level": "Langue maternelle",  "percent": 100 },
+    { "name": "Arabe",     "level": "Courant",            "percent": 95  },
+    { "name": "Français",  "level": "Intermédiaire",      "percent": 75  },
+    { "name": "Anglais",   "level": "Intermédiaire",      "percent": 70  }
+  ],
+  "learningTitle": "En cours d'apprentissage",
+  "learning": ["Spring Boot", "Docker avancé", "CI/CD"],
+  "ctaCV": "Télécharger mon CV",
+  "openToWork": "Open to work",
+  "stats": [
+    { "value": 2,  "suffix": "+", "label": "Années d'expérience" },
+    { "value": 5, "suffix": "+", "label": "Projets livrés"       },
+    { "value": 4,  "suffix": "",  "label": "Certifications"       }
+  ]
+}

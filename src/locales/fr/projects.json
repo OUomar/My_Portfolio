@@ -1,0 +1,51 @@
+{
+  "sectionTitle": "Projets Personnels",
+  "sectionSubtitle": "Quelques projets développés pour explorer de nouvelles technologies et résoudre des problèmes concrets.",
+  "githubCta": "Voir tous mes projets sur GitHub",
+  "projects": [
+    {
+      "id": 1,
+      "title": "Dashboard Analytics – Panier d'Achat",
+      "description": "Tableau de bord interactif d'analyse en temps réel des comportements d'achat : visualisation des tendances, suivi des paniers, statistiques consommateurs et graphiques dynamiques. Backend Node.js/Express avec base de données MongoDB et typage TypeScript.",
+      "stack": [
+        "Vue.js",
+        "Node.js",
+        "Express",
+        "TypeScript",
+        "MongoDB"
+      ],
+      "github": "https://github.com/OUomar/Outil-simplifi-d-analyse-des-paniers-d-achat",
+      "demo": "#"
+    },
+    {
+      "id": 2,
+      "title": "Application GI-FSTE – Gestion Cycle Ingénieur",
+      "description": "Plateforme web de gestion pédagogique et administrative pour le cycle d'ingénieur en Génie Informatique : gestion des étudiants, enseignants, cours, notes, absences et emplois du temps. Trois espaces distincts : Étudiant, Enseignant et Administrateur.",
+      "stack": [
+        "PHP",
+        "Laravel",
+        "JavaScript",
+        "jQuery",
+        "MySQL"
+      ],
+      "github": "https://github.com/OUomar/Application-web-pour-la-gestion-de-la-formation-du-cycle-d-ing-nieur",
+      "demo": "#"
+    },
+     {
+      "id": 3,
+      "title": "Application Web Auto-École",
+      "description": "Système complet de gestion d'auto-école : candidats, moniteurs, véhicules, planning des séances, paiements en ligne et suivi des examens. Trois rôles distincts : Administrateur, Moniteur et Candidat.",
+      "stack": [
+        "PHP",
+        "Laravel",
+        "JavaScript",
+        "jQuery",
+        "MySQL",
+        "HTML5",
+        "CSS3"
+      ],
+      "github": "https://github.com/OUomar/Application-web-pour-la-gestion-d-une-auto--cole.",
+      "demo": "#"
+    }
+  ]
+}

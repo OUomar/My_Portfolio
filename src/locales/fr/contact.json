@@ -1,0 +1,73 @@
+{
+  "sectionTitle": "Travaillons ensemble",
+  "sectionSubtitle": "Disponible pour",
+  "availableFor": [
+    "CDI",
+    "Freelance",
+    "Remote"
+  ],
+  "formTitle": "Envoyez-moi un message",
+  "formSubtitle": "Je vous répondrai dans les plus brefs délais",
+  "fields": {
+    "name": {
+      "label": "Nom",
+      "placeholder": "Omar Oukhouya"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "you@example.com"
+    },
+    "subject": {
+      "label": "Sujet",
+      "placeholder": "Proposition de collaboration..."
+    },
+    "message": {
+      "label": "Message",
+      "placeholder": "Décrivez votre projet ou votre demande..."
+    }
+  },
+  "errors": {
+    "nameRequired": "Le nom est requis",
+    "emailRequired": "L'email est requis",
+    "emailInvalid": "Format d'email invalide",
+    "subjectRequired": "Le sujet est requis",
+    "messageRequired": "Le message est requis"
+  },
+  "btnSend": "Envoyer le message",
+  "btnSending": "Envoi en cours...",
+  "btnSent": "Message envoyé !",
+  "introTitle": "Discutons de votre projet 🚀",
+  "introText": "Que ce soit pour une mission freelance, un poste en CDI ou une collaboration remote, je suis ouvert à toute opportunité intéressante.",
+  "availabilityText": "Disponible",
+  "availabilitySub": "Ouvert aux nouvelles opportunités dès maintenant",
+  "contactInfo": [
+    {
+      "label": "Email",
+      "value": "ou.omar88@gmail.com",
+      "description": "Réponse sous 24h",
+      "external": false
+    },
+    {
+      "label": "Téléphone",
+      "value": "+212 659-881839",
+      "description": "Lun – Ven · 9h – 18h",
+      "external": false
+    },
+    {
+      "label": "Localisation",
+      "value": "Casablanca, Maroc",
+      "description": "Disponible en remote",
+      "external": false
+    },
+    {
+      "label": "LinkedIn",
+      "value": "omar-oukhouya",
+      "description": "Connectons-nous !",
+      "external": true
+    }
+  ],
+  "fallbackTitle": "Envoi de message temporairement indisponible",
+  "fallbackText": "Le formulaire n'est pas encore connecté. Contactez-moi directement par email ou WhatsApp :",
+  "successMessage": "Message envoyé avec succès ! Je vous répondrai dans les plus brefs délais.",
+  "errorMessage": "Une erreur s'est produite. Veuillez réessayer ou me contacter directement."
+}

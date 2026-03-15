@@ -1,0 +1,17 @@
+{
+  "navFirstName":"Omar",
+  "navLastName":"OUKHOUYA",
+  "navSubtitle": "Ingénieur Logiciel",
+  "navCta": "Me contacter",
+  "navDarkTitle": "Mode clair",
+  "navLightTitle": "Mode sombre",
+  "navCallTitle": "Appeler",
+  "navLinks": [
+    { "label": "Accueil",     "href": "#accueil"     },
+    { "label": "À propos",    "href": "#apropos"     },
+    { "label": "Compétences", "href": "#competences" },
+    { "label": "Expériences", "href": "#experiences" },
+    { "label": "Projets",     "href": "#projets"     },
+    { "label": "Contact",     "href": "#contact"     }
+  ]
+}

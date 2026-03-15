@@ -1,0 +1,272 @@
+{
+  "sectionTitle": "Professional Experience",
+  "sectionSubtitle": "My professional journey — from formative internships to production SaaS projects.",
+  "chipLabel": "Career",
+  "currentBadge": "Currently working",
+  "detailsBtn": "View more",
+  "closeBtn": "Collapse",
+  "stackLabel": "Tech stack",
+  "modalClose": "Close",
+  "modalSections": {
+    "context": "Project context",
+    "missions": "My missions",
+    "technical": "Technical details",
+    "architecture": "Architecture",
+    "deployment": "Deployment",
+    "stack": "Stack used"
+  },
+  "experiences": [
+    {
+      "id": 1,
+      "current": true,
+      "period": "Sept. 2025 – Mars. 2026",
+      "role": "Full Stack Engineer",
+      "company": "Luxpure",
+      "location": "Technopark, Casablanca",
+      "summary": "End-to-end design, development and deployment of a B2B2C SaaS hotel management platform (PMS) — LuxTech.",
+      "stack": [
+        "Laravel 12",
+        "React.js",
+        "Vite",
+        "Sanctum",
+        "Reverb",
+        "MySQL",
+        "Stripe",
+        "OVHcloud"
+      ],
+      "modal": {
+        "context": "Luxpure entrusted me with the complete development of LuxTech, a SaaS PMS (Property Management System) for the Moroccan hotel industry. I handled the full cycle: from architecture design to production deployment on OVHcloud, covering all features development.",
+        "missions": [
+          "Designed the complete technical architecture (REST API Back-end + SPA Front-end)",
+          "Developed the Hotel PMS module: rooms, room types, equipment, interactive booking calendar",
+          "Developed the Agency Portal: hotel search engine, multi-step booking wizard",
+          "Developed the public Booking Engine: direct reservations for end customers",
+          "Integrated Stripe payments (Checkout, Webhooks, failure handling)",
+          "Set up real-time notifications via WebSockets (Laravel Reverb)",
+          "Automated PDF invoice generation and email delivery",
+          "Configured Queue Workers and Scheduler (automatic room status updates, reminders)",
+          "Deployed to production on OVHcloud VPS (Ubuntu), SSH and MySQL configuration"
+        ],
+        "architecture": [
+          "Back-end: Laravel 12 REST API — Service-oriented architecture for complex business logic",
+          "Front-end: React + Vite SPA — domain-based modular structure (Agency, Hotel, Public)",
+          "Real-time: WebSockets via Laravel Reverb for notifications and PMS calendar",
+          "Security: Laravel Sanctum (API tokens), role middleware (Admin, Hotel, Agency)",
+          "3 distinct environments: Hotel Dashboard (PMS), B2B Agency Portal, Public Booking Engine"
+        ],
+        "deployment": "Deployed on OVHcloud VPS (Ubuntu 22.04) via SSH. Production MySQL server configuration, sensitive environment variables management (Stripe, Google Maps, ReCaptcha, Reverb). Hosted at luxtech.ma.",
+        "stack_detail": {
+          "backend": [
+            "Laravel 12",
+            "Laravel Sanctum",
+            "Laravel Reverb (WebSockets)",
+            "Laravel Queue",
+            "Stripe API",
+            "Mailtrap/SMTP",
+            "DomPDF",
+            "Google ReCaptcha",
+            "Google Maps API"
+          ],
+          "frontend": [
+            "React.js",
+            "Vite",
+            "Axios",
+            "Tailwind CSS",
+            "Context API"
+          ],
+          "database": [
+            "MySQL",
+            "phpMyAdmin"
+          ],
+          "devops": [
+            "OVHcloud VPS",
+            "Ubuntu 22.04",
+            "SSH",
+            "Git"
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "current": false,
+      "period": "Jan. 2025 – May 2025",
+      "role": "Freelance Full-Stack Developer",
+      "company": "NEO Solutions",
+      "location": "Remote – France",
+      "summary": "Full design and development of a B2B economic intelligence platform: corporate website, secure client portal and admin back-office with Ellisphere API integration for financial analysis of French companies.",
+      "stack": [
+        "Laravel",
+        "React.js",
+        "TypeScript",
+        "MySQL",
+        "Tailwind CSS",
+        "REST API",
+        "Ellisphere API"
+      ],
+      "modal": {
+        "context": "Freelance mission for NEO Solutions (Morocco, French client): a firm specializing in business intelligence, due diligence, compliance and cybersecurity. The project covered two parts: an institutional website and a full business platform allowing professional clients to search and analyze French companies via the Ellisphere API, with an in-depth investigation workflow managed on the admin side.",
+        "missions": [
+          "Development of the NEO Solutions institutional website (Home, About, Services, Contact, Client Portal pages)",
+          "development of the secure client platform: authentication, dashboard, company search engine",
+          "Integration of the Ellisphere API to retrieve financial data (SIREN, financial statements, executives, solvency scores)",
+          "Development of the Search module: search by SIREN, company name, executive, department or business sector with confidence score (0-10, displayed as 0 to 5 stars)",
+          "Development of the Investigation Services module: inquiry request form (3 types + custom), status tracking",
+          "Development of the admin back-office: incoming inquiry management with pre-filled Word document generation from Ellisphere data, notifications and delivery workflow",
+          "Security of access and sensitive financial data (authentication, client/admin roles)"
+        ],
+        "architecture": [
+          "Monolithic Laravel architecture: integrated back-end and front-end, no client-side API exposed (direct DB access)",
+          "Front-end: React + TypeScript SPA for the client dashboard and admin back-office",
+          "Ellisphere API integration: 3 custom XML products — PRELYSE (main data), financial statements (last 3 years), BODACC updates (collective proceedings)",
+          "Investigation workflow: client request > admin notification > pre-filled Word generation from Ellisphere data > admin completion > client delivery",
+          "MySQL database: financial data modeling, consulted companies, client portfolios, audit history"
+        ],
+        "stack_detail": {
+          "backend": [
+            "Laravel",
+            "REST API",
+            "Ellisphere API (XML)",
+            "Auth & Roles"
+          ],
+          "frontend": [
+            "React.js",
+            "TypeScript",
+            "Tailwind CSS"
+          ],
+          "database": [
+            "MySQL"
+          ],
+          "devops": [
+            "Git",
+            "Remote / France"
+          ]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "current": false,
+      "period": "Feb. 2024 – Jul. 2024",
+      "role": "Full Stack Developer — Final Year Internship",
+      "company": "M2S – Mondial Solution Services",
+      "location": "Casablanca",
+      "summary": "Final year internship: full rebuild of a desktop automotive claims management app into a modern Laravel web application, with automated emails, notifications and cost calculations.",
+      "stack": [
+        "PHP 8.1",
+        "Laravel 9",
+        "JavaScript",
+        "jQuery",
+        "Tailwind CSS",
+        "SQL Server",
+        "Laragon"
+      ],
+      "modal": {
+        "context": "Final Year Project (PFE) internship at M2S – Mondial Solution Services, an IT consulting and development firm based in Casablanca. The existing .NET Desktop application had critical limitations: single-machine access, poor ergonomics and no automation. The mission was to design and develop from scratch a modern Laravel web application to meet the specific requirements of the automotive insurance industry.",
+        "missions": [
+          "Analysis of the existing .NET Desktop application and specification of functional and non-functional requirements",
+          "Development of a secure authentication page with role management (insurance experts)",
+          "Development of the per-company insurance dashboard: visual statistics (pie and bar charts), key indicators (created, late, refused, validated claims), AGT return list and assessors list",
+          "Development of the full claim file creation workflow: multi-step form (creation > documents > scheduling > decision)",
+          "Document management: multiple PDF and image uploads, PDF-to-image conversion (ImageMagick), full-screen viewer with zoom and rotation",
+          "AGT scheduling module: interactive calendar, automatic agent selection by geographic zone",
+          "Cost assessment module: supplier management (parts), labor by impact type, automatic HT/VAT/TTC calculations",
+          "Decision pop-up: file status change, predefined reasons, 2nd status field, free observations",
+          "Status history timeline: chronological display of the complete evolution of each file",
+          "Email automation: periodic detection of pending emails, pop-up display with attachments, send/reject by expert.",
+          "Follow-up automation: detection of late files and automatic generation of reminders"
+        ],
+        "architecture": [
+          "Laravel 9 MVC architecture: strict separation of Model-View-Controller to isolate business logic, presentation and data access",
+          "SQL Server database (SSMS) modeled for insurance claims: File, Contract, Follow-up, Scheduling, Cost Assessment, Supplier, Labor, Impact Points, File States",
+          "Front-end: HTML/CSS/JavaScript + jQuery (Select2, AJAX, dynamic validation, animations) + Tailwind CSS",
+          "PHP extensions used: hash (security), Imagick (PDF to image), pdo_sqlsrv / sqlsrv (SQL Server connection)",
+          "Agile Scrum methodology: 2-3 week sprints, regular reviews, meetings every 3 days",
+          "Project tracking: Gantt chart (GanttProject), UML modeling (Lucidchart)"
+        ],
+        "stack_detail": {
+          "backend": [
+            "PHP 8.1",
+            "Laravel 9",
+            "MVC",
+            "Imagick",
+            "pdo_sqlsrv"
+          ],
+          "frontend": [
+            "JavaScript",
+            "jQuery",
+            "Select2",
+            "AJAX",
+            "Tailwind CSS",
+            "HTML/CSS"
+          ],
+          "database": [
+            "SQL Server",
+            "SSMS"
+          ],
+          "devops": [
+            "Git",
+            "Laragon",
+            "Scrum / Agile"
+          ]
+        }
+      }
+    },
+    {
+      "id": 4,
+      "current": false,
+      "period": "Jul. 2023 – Sep. 2023",
+      "role": "Full Stack Developer — Internship",
+      "company": "FST Errachidia",
+      "location": "Errachidia",
+      "summary": "Built from scratch a web application for Master's cycle academic management: students, teachers, courses, grades, absences and schedules.",
+      "stack": [
+        "PHP",
+        "Laravel",
+        "jQuery",
+        "MySQL",
+        "HTML5",
+        "CSS3"
+      ],
+      "modal": {
+        "context": "Internship at the Faculty of Sciences and Techniques of Errachidia (FST): design and development from scratch of a web-based academic management application dedicated to the Master's cycle. The goal was to digitize and centralize the department's administrative processes — replacing manual procedures with a modern web solution accessible to students, teachers and administrative staff.",
+        "missions": [
+          "Analysis of functional and non-functional requirements with the Master's department",
+          "UML modeling: use case diagram (actors: Student, Admin/Manager) and class diagram",
+          "Design and modeling of the MySQL database (students, teachers, modules, grades, absences, courses)",
+          "Development of the Authentication module: registration, secure login, student space and admin space",
+          "Development of the Student Management module: viewing and updating personal and academic information",
+          "Development of the Courses & Announcements module: course material distribution, publication of notices to students",
+          "Development of the Grades & Evaluations module: grade entry by module, student consultation",
+          "Development of the Absence Tracking module: attendance/absence monitoring per student and per module",
+          "Development of the Schedule module: timetable planning and display by Master's track"
+        ],
+        "architecture": [
+          "Laravel MVC architecture: Controllers / Models / Views separation to isolate business logic, data access and presentation",
+          "MySQL database: relational modeling (Student, Teacher, Module, Grade, Absence, Course, Schedule)",
+          "Front-end: HTML5 / CSS3 + jQuery for dynamic interactions (form validation, AJAX loading, conditional rendering)",
+          "Two distinct spaces: Student Space (grades, courses, absences, notices) and Admin Space (full academic data management)"
+        ],
+        "stack_detail": {
+          "backend": [
+            "PHP",
+            "Laravel",
+            "MVC"
+          ],
+          "frontend": [
+            "jQuery",
+            "AJAX",
+            "HTML5",
+            "CSS3"
+          ],
+          "database": [
+            "MySQL"
+          ],
+          "devops": [
+            "Git"
+          ]
+        }
+      }
+    }
+  ]
+}

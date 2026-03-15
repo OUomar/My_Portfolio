@@ -1,0 +1,102 @@
+{
+  "sectionTitle": "المهارات",
+  "sectionSubtitle": "نظرة شاملة على التقنيات التي أستخدمها يومياً لبناء تطبيقات ويب حديثة ومتينة.",
+  "expertiseTitle": "مستوى الخبرة",
+  "expertiseSubtitle": "تقييم حسب التقنية الرئيسية",
+  "techCountSingular": "تقنية",
+  "techCountPlural": "تقنيات",
+  "categories": [
+    {
+      "name": "الواجهة الأمامية",
+      "technologies": [
+        "React.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Bootstrap",
+        "jQuery",
+        "Vite",
+        "HTML5",
+        "CSS3"
+      ]
+    },
+    {
+      "name": "الواجهة الخلفية",
+      "technologies": [
+        "PHP/Laravel",
+        "Java/Spring Boot",
+        "Node.js"
+      ]
+    },
+    {
+      "name": "قواعد البيانات",
+      "technologies": [
+        "MySQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "technologies": [
+        "Docker",
+        "Git",
+        "GitHub",
+        "GitLab CI/CD",
+        "OVHcloud"
+      ]
+    },
+    {
+      "name": "الاختبار والمنهجيات",
+      "technologies": [
+        "Postman",
+        "PHPUnit",
+        "Agile / Scrum",
+        "UML"
+      ]
+    },
+    {
+      "name": "الأدوات والـ APIs",
+      "technologies": [
+        "REST API",
+        "Stripe",
+        "Ellisphère API",
+        "ImageMagick",
+        "Select2",
+        "AJAX"
+      ]
+    }
+  ],
+  "expertise": [
+    {
+      "name": "Laravel",
+      "level": 90
+    },
+    {
+      "name": "PHP",
+      "level": 85
+    },
+    {
+      "name": "React.js",
+      "level": 80
+    },
+    {
+      "name": "MySQL",
+      "level": 80
+    },
+    {
+      "name": "TypeScript",
+      "level": 65
+    },
+    {
+      "name": "Node.js",
+      "level": 50
+    },
+    {
+      "name": "Docker",
+      "level": 55
+    },
+    {
+      "name": "Spring Boot",
+      "level": 50
+    }
+  ]
+}

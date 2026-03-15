@@ -1,0 +1,17 @@
+{
+  "navFirstName":"عمر",
+  "navLastName":"أوخويا",
+  "navSubtitle":"مهندس برمجيات",
+  "navCta": "تواصل معي",
+  "navDarkTitle": "الوضع الفاتح",
+  "navLightTitle": "الوضع الداكن",
+  "navCallTitle": "اتصل",
+  "navLinks": [
+    { "label": "الرئيسية", "href": "#accueil"     },
+    { "label": "عني",      "href": "#apropos"     },
+    { "label": "المهارات", "href": "#competences" },
+    { "label": "الخبرات",  "href": "#experiences" },
+    { "label": "المشاريع", "href": "#projets"     },
+    { "label": "التواصل",  "href": "#contact"     }
+  ]
+}

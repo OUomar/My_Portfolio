@@ -1,0 +1,34 @@
+{
+  "sectionTitle": "Formation",
+  "sectionSubtitle": "Mon parcours académique, fondement de mes compétences techniques.",
+  "chipLabel": "Éducation",
+  "education": [
+    {
+      "id": 1,
+      "degree": "Ingénieur d'État — Génie Logiciel",
+      "school": "Faculté des Sciences et Techniques",
+      "location": "Errachidia, Maroc",
+      "period": "2021 – 2024",
+      "highlight": true,
+      "tags": ["Génie Logiciel", "Architecture Logicielle", "Base de données", "Réseaux"]
+    },
+    {
+      "id": 2,
+      "degree": "DEUG — Sciences Mathématiques et Informatique",
+      "school": "Faculté des Sciences",
+      "location": "Ouarzazate, Maroc",
+      "period": "2019 – 2021",
+      "highlight": false,
+      "tags": ["Mathématiques", "Algorithmique", "Programmation"]
+    },
+    {
+      "id": 3,
+      "degree": "Baccalauréat — Sciences Mathématiques A",
+      "school": "Lycée",
+      "location": "Maroc",
+      "period": "2018 – 2019",
+      "highlight": false,
+      "tags": ["Mathématiques", "Physique"]
+    }
+  ]
+}

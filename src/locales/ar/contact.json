@@ -1,0 +1,37 @@
+{
+  "sectionTitle": "لنعمل معاً",
+  "sectionSubtitle": "متاح لـ",
+  "availableFor": ["عقد دائم", "عمل حر", "عن بُعد"],
+  "formTitle": "أرسل لي رسالة",
+  "formSubtitle": "سأرد عليك في أقرب وقت ممكن",
+  "fields": {
+    "name":    { "label": "الاسم",     "placeholder": "عمر أوخويا"                         },
+    "email":   { "label": "البريد",    "placeholder": "you@example.com"                    },
+    "subject": { "label": "الموضوع",   "placeholder": "اقتراح تعاون..."                    },
+    "message": { "label": "الرسالة",   "placeholder": "صف مشروعك أو طلبك..."              }
+  },
+  "errors": {
+    "nameRequired":    "الاسم مطلوب",
+    "emailRequired":   "البريد الإلكتروني مطلوب",
+    "emailInvalid":    "صيغة البريد الإلكتروني غير صحيحة",
+    "subjectRequired": "الموضوع مطلوب",
+    "messageRequired": "الرسالة مطلوبة"
+  },
+  "btnSend":    "إرسال الرسالة",
+  "btnSending": "جارٍ الإرسال...",
+  "btnSent":    "تم إرسال الرسالة!",
+  "introTitle":       "لنتحدث عن مشروعك 🚀",
+  "introText":        "سواء كانت مهمة عمل حر، أو وظيفة بعقد دائم، أو تعاون عن بُعد، فأنا منفتح على أي فرصة مثيرة للاهتمام.",
+  "availabilityText": "متاح",
+  "availabilitySub":  "منفتح على الفرص الجديدة الآن",
+  "contactInfo": [
+    { "label": "البريد",     "value": "ou.omar88@gmail.com", "description": "رد خلال 24 ساعة",      "external": false },
+    { "label": "الهاتف",     "value": "+212 659-881839",     "description": "الإثنين–الجمعة · 9–18", "external": false },
+    { "label": "الموقع",     "value": "الدار البيضاء، المغرب", "description": "متاح عن بُعد",         "external": false },
+    { "label": "LinkedIn",   "value": "omar-oukhouya",       "description": "لنتواصل!",              "external": true  }
+  ],
+  "fallbackTitle": "إرسال الرسائل غير متاح مؤقتاً",
+  "fallbackText": "النموذج غير متصل بعد. تواصل معي مباشرة عبر البريد الإلكتروني أو WhatsApp :",
+  "successMessage": "تم إرسال رسالتك بنجاح ! سأرد عليك في أقرب وقت ممكن.",
+  "errorMessage": "حدث خطأ ما. يرجى المحاولة مجدداً أو التواصل معي مباشرة."
+}
