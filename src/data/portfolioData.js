@@ -3,7 +3,7 @@ export const personalInfo = {
   location: "Casablanca, Maroc",
   email: "ou.omar88@gmail.com",
   phone: "+212 659-881839",
-  cvUrl: "/Omar___OUKHOUYA___CV.pdf",
+  cvUrl: `${import.meta.env.BASE_URL}Omar___OUKHOUYA___CV.pdf`,
   social: {
     github:   "https://github.com/OUomar",
     linkedin: "https://www.linkedin.com/in/omar-oukhouya-306813229",

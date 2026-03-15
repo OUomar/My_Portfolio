@@ -200,7 +200,7 @@ const Avatar = ({ openToWork }) => {
           shadow-[0_0_40px_rgba(46,134,171,0.12),0_20px_50px_rgba(0,0,0,0.2)]
           dark:shadow-[0_0_40px_rgba(46,134,171,0.18),0_20px_50px_rgba(0,0,0,0.55)]">
           <img
-            src="/hero_profil.png"
+            src={`${import.meta.env.BASE_URL}hero_profil.png`}
             alt={personalInfo?.name_complet || 'Profile'}
             className="absolute inset-0 w-full h-full object-cover object-top z-10"
             onError={e => { e.currentTarget.style.display = 'none'; }}

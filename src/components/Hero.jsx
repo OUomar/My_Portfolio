@@ -94,7 +94,7 @@ const ProfileImage = () => {
           style={{ background: 'radial-gradient(circle,#2E86AB 0%,transparent 70%)' }} />
 
         <img
-          src="/img_hero.png"
+          src={`${import.meta.env.BASE_URL}img_hero.png`}
           alt={personalInfo.name_complet}
           className="absolute inset-0 w-full h-full object-cover object-top z-10 rounded-2xl"
           onError={e => { e.currentTarget.style.display = 'none'; }}
